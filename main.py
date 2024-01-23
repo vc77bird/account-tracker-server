@@ -12,7 +12,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost:3000",
-    'http://oncore-ontrack.umms.umm.edu:3000/',
+    'http://oncore-ontrack.umms.umm.edu:3000',
 ]
 
 app.add_middleware(
